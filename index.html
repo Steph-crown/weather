@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html id="html">
+		<head>
+			<meta name="theme-color" content ="#0a1f44">
+			<meta name ="viewport" content="width = device-width, initial-scale=1">
+			<title>Crown Weather app</title>
+			<link rel="icon" href="favicon.ico" sizes="16x16" type="image/ico"> 
+			<link href="style.css" type="text/css" rel="stylesheet">
+			<script type="text/javascript" src="main.js"></script>
+		</head>
+		<body id="body">
+			<section class="top-banner">
+				<div class="container">
+					<h1 class="heading">Crown Weather App</h1>
+					<form id="form">
+						<input type="text" placeholder="Input city" autofocus id="city"><br>
+						<input type="text" placeholder ="Input state" id="state"><br>
+						<button type="submit" onclick="find()">SUBMIT</button>
+						<span class="msg"></span>
+					</form>
+				</div>
+			</section>
+			
+			<section id="resultSect">
+				<div id="result">
+				</div>
+			</section>
+		</body>
+	</html>
